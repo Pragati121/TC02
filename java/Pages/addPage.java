@@ -5,15 +5,14 @@ import org.openqa.selenium.WebDriver;
 
 public class addPage {
     WebDriver driver;
-    By add =By.xpath("//button[@class='oxd-icon-button oxd-main-menu-button']");
+    By add =By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']");
 
     public addPage(WebDriver driver) {
         this.driver = driver;
     }
-    public void Add()throws InterruptedException
+    public void Add()
     {
         driver.manage().window().maximize();
-        Thread.sleep(3000);
         driver.findElement(add).click();
 
 

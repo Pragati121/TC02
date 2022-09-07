@@ -5,16 +5,16 @@ import org.openqa.selenium.WebDriver;
 
 public class UsernamePage {
     WebDriver driver;
-    By Username =By.xpath("//input[@class='oxd-input oxd-input--active toggled']");
+    By Username =By.xpath("//input[@placeholder='Type for hints...']");
 
-    public UsernamePage(WebDriver driver) {
+    public UsernamePage(WebDriver driver)
+    {
         this.driver = driver;
     }
-    public void User()throws InterruptedException
+    public void User()
     {
         driver.manage().window().maximize();
-        Thread.sleep(3000);
-        driver.findElement(Username).click();
+        driver.findElement(Username).sendKeys("Pragati");
 
 
     }
