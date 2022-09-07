@@ -24,6 +24,7 @@ public class LoginTest extends BaseClass {
     }
     @Test(priority = 5)
     public void Leavenew()throws InterruptedException {
+    System.out.println("hi");
         getPageFactory.getLeave().leave();
     }
 

@@ -10,7 +10,7 @@ public class PageFactory {
     private addPage addPage;
     private UsernamePage UserNamePage;
     private LeavePage LeavePage;
-
+          private TC7Page Tc;
     public PageFactory(WebDriver driver) {
         this.driver = driver;
     }
@@ -48,6 +48,12 @@ public class PageFactory {
             LeavePage = new LeavePage(driver);
         }
         return LeavePage;
+    }
+    public TC7Page Tc() {
+        if (Tc == null) {
+            Tc = new TC7Page(driver);
+        }
+        return Tc;
     }
 }
 
