@@ -9,6 +9,7 @@ public class UsernamePage {
 
     public UsernamePage(WebDriver driver)
     {
+
         this.driver = driver;
     }
     public void User()

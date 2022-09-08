@@ -1,7 +1,10 @@
 package Pages;
 
+import net.bytebuddy.pool.TypePool;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import java.time.Duration;
 
 public class AdminPage {
         WebDriver driver;
@@ -13,7 +16,7 @@ public class AdminPage {
         public void Admin()throws InterruptedException
         {
             driver.manage().window().maximize();
-            Thread.sleep(3000);
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             driver.findElement(Admin).click();
 
 

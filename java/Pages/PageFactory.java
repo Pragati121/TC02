@@ -1,5 +1,6 @@
 package Pages;
 
+import Test.TC7Test;
 import org.openqa.selenium.WebDriver;
 
 public class PageFactory {
@@ -49,12 +50,14 @@ public class PageFactory {
         }
         return LeavePage;
     }
-    public TC7Page Tc() {
+    public TC7Page getTc() {
         if (Tc == null) {
             Tc = new TC7Page(driver);
         }
         return Tc;
     }
+
+
 }
 
 
