@@ -6,7 +6,7 @@ public class PageFactory {
     WebDriver driver;
 
     private LoginPage loginPage;
-
+private Dashboard dashboard;
 
     public PageFactory(WebDriver driver) {
         this.driver = driver;
@@ -17,6 +17,12 @@ public class PageFactory {
             loginPage = new LoginPage(driver);
         }
         return loginPage;
+    }
+    public Dashboard Getdashboard() {
+        if (dashboard == null) {
+            dashboard = new Dashboard(driver);
+        }
+        return dashboard;
     }
 
 }

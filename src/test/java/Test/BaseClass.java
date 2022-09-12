@@ -19,7 +19,7 @@ public class BaseClass {
             driver = new ChromeDriver();
             System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
             driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
             getPageFactory = new PageFactory(driver);
         }
 

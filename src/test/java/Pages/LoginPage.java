@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage{
                 WebDriver driver;
-                By Email =By.xpath("//input[@class='email']");
+                By Mail =By.xpath("//input[@class='email']");
                 By password  = By.xpath("//input[@class='password']");
                 By submit = By.xpath("//button[@type='submit']");
                 public LoginPage(WebDriver driver)
