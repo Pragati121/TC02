@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea127cac-2036-42b1-baf0-739c5db1b8cb" name="Changes" comment="" />
+    <list default="true" id="ea127cac-2036-42b1-baf0-739c5db1b8cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orangehrm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Orangehrm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeavePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/TC7Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/UsernamePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/addPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AddTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AdminTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/LeaveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TC7Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/UsernameTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="TC1" />
         <entry key="$PROJECT_DIR$/src/test" value="Test" />
       </map>
     </option>
@@ -36,16 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PragatiSharma/IdeaProjects/Orangehrm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/PragatiSharma/IdeaProjects/Orangehrm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Test" />
@@ -54,7 +71,7 @@
       <recent name="C:\Users\PragatiSharma\IdeaProjects\Orangehrm" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC7Test">
+  <component name="RunManager">
     <configuration name="C:/Users/PragatiSharma/IdeaProjects/Orangehrm/Config/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Orangehrm" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Config/TestNG.xml" />

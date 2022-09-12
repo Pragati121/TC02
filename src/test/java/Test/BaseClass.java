@@ -18,8 +18,8 @@ public class BaseClass {
         {
             driver = new ChromeDriver();
             System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-            driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+            driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
             getPageFactory = new PageFactory(driver);
         }
 
