@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class Dashboard {
     WebDriver driver;
    By dashboard =By.xpath("//a[@class='nav-link active']");
-    By order =By.xpath("(//div[@class='card card-primary card-outline collapsed-card']");
+    By order =By.xpath("((//div[@class='card-tools float-right'])[6]");
     public Dashboard(WebDriver driver)
     {
         this.driver = driver;
