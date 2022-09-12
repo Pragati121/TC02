@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Dashboard {
     WebDriver driver;
-    By dashboard =By.xpath("//input[@class='email']");
+    By dashboard =By.xpath();
     public Dashboard(WebDriver driver)
     {
         this.driver = driver;
@@ -14,6 +14,6 @@ public class Dashboard {
     {
         driver.manage().window().maximize();
         Thread.sleep(3000);
-//        driver.findElement().click();
+       driver.findElement(dashboard).click();
     }
 }
