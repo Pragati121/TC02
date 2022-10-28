@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.947">
+    <testcase classname="Add items to cart" name="Adding items to cart" time="8.648">
+        <system-out><![CDATA[Given User is in the Home Page..............................................passed
+When User searched for Oppo mobile and printed its name on the UI...........passed
+And Check the size and color of mobile and print the same on  UI............passed
+And Go to customer question & answer section and print top three question and answers.passed
+And Add item to cart and also verify it in the cart.........................passed
+And Go to shopping cart and increase the quantity...........................passed
+Then Verify the item in the cart and console the total amount of product....passed
+]]></system-out>
+    </testcase>
+</testsuite>
